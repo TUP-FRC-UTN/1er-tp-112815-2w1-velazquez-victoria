@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+body{
+    background-image: url(/imagenes/fondo2.gif);
+    display:inline-block;
+   
+}
+.container{   
+    margin:50px;
+    margin-left: 100px;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+.profileText{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-bottom:20px;
+    border-bottom:1px solid rgba(255,255,255,0.2);
+}
+.profileText .imgBx{
+    position:relative;
+    width:200px;
+    height:200px;
+    margin-top: 50px;
+    border-radius:50%;
+    overflow:hidden;
+}
+.profileText .imgBx img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.profileText h2{
+    color:#fff;
+    font-size:1.5em;
+    margin-top:20px;
+    text-transform:uppercase ;
+    text-align:center;
+    font-weight:600;
+    line-height:1.4em;
+}
+.profileText h2 span{ 
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.contactInfo{
+    padding-top:40px ;
+    
+}
+.title{
+    color:#fff;
+   margin-left: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom:20px;
+}
+.contactInfo ul{
+    position:relative;
+}
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contactInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size:18px;
+    color: #ffffff;
+}
+.contactInfo ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+
+.education{
+    margin-top: 40px;
+}
+.education li{
+    margin-bottom:15px;
+}
+.education h6{
+    color:rgb(108,117,125);
+    font-size:500 ;
+}
+.experiencia{
+    margin-top: 30px;
+}
+.experiencia li{
+    margin-bottom:15px;
+}
+.experiencia h6{
+    color:rgb(108,117,125);
+    font-size:500 ;
+}
+.col-md-6 h6{
+    color:rgb(108,117,125);
+    font-size:500 ;
+}
+.col-md-6 .percent{
+    position: relative;
+    width: 200px;
+    height: 6px;
+    background:rgb(221, 224, 226);
+    display:block;
+    margin-top: 5px;
+
+}
+.col-md-6 .percent .es{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    background:#5e5d5d
+}
+.col-md-6 .percent .en{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    background:#575555
+}
+.row{
+    margin:40px;
+}
+.container-form{
+    margin:50px;
+    margin-left: 100px;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.a{
+    margin:30px;
+    margin-bottom: 30px;
+}
+.btn{
+    display: inline-flex;
+    margin-left: 10px;
+}
+li{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+@media(max-width:1000px)
+{
+    .container{
+        margin:10px;
+        
+    }
+}
